@@ -1,0 +1,11 @@
+ {%comment%}快捷购买{%endcomment%}
+(function(){
+  try{
+          var defaultVariant ={{ product.variants[0]|json}};
+
+    if(defaultVariant && defaultVariant.id && location.search.indexOf('quickCheckout') !== -1){
+            location.href = '/cart/'+ defaultVariant.id +':1/';
+    }
+  }catch{}
+
+})()

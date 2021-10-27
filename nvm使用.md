@@ -27,4 +27,5 @@
     * 注意： 
       * 问题： nvm安装node版本时候，会有问题，不知道是不是nvm的问题。
       * 解决方式： 在node官网下载想要的node版本包，然后放在 C:\Users\callme\AppData\Roaming\nvm 文件夹下
+      * 若nvm use 出现  'exit status 145'等等，可能是权限不够，需要以管理员方式打开终端
     
